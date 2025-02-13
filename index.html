@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+   
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <script defer src="js/scripts.js"></script>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+
+    
+    <div class="input-section">
+        <label for="colorInput">Enter a value between 0 and 100:</label>
+        <input type="number" id="colorInput" placeholder="Enter a number">
+        <button id="changeColorBtn">Change custom color</button>
+        <p id="studentIdDisplay">Your student ID will appear here.</p>
+    </div>
+
+    <!-- Button to change random color -->
+    <button id="randomColorBtn">Change random color</button>
+
+    <!-- Select dropdown for image options -->
+    <select id="imageSelector">
+        <option value="">Select an image</option>
+    </select>
+
+    <!-- Image Display -->
+    <div id="imageDisplay">
+        <img src="" alt="Selected Image" id="selectedImage" style="display:none;">
+    </div>
+</body>
+</html>
